@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <title>DevKode | Soluções em Software</title>
+</head>
+
+<body>
+<header class="header">
+    <section>
+        <a href="#" class="logo">
+            <strong>Dev</strong>Kode
+        </a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Início</a>
+            <a href="#services">Serviços</a>
+            <a href="#menu">Projetos</a>
+            <a href="#about">Sobre</a>
+            <a href="#contact">Contato</a>
+        </nav>
+
+        <div class="icons" id="icons">
+            <!-- Botão de Apoio Financeiro -->
+            <a href="javascript:void(0)" class="btn-support open-support" title="Apoiar Financeiramente">
+                <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/donate.png" alt="Apoiar"/>
+            </a>
+            <a href="https://github.com/seu-usuario" target="_blank"><img width="25" height="25" src="https://img.icons8.com/ios-filled/50/github.png" alt="GitHub"/></a>
+            <a href="https://linkedin.com/in/seu-perfil" target="_blank"><img width="25" height="25" src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="LinkedIn"/></a>
+        </div>
+    </section>
+</header>
+
+<!-- HOME / HERO SECTION -->
+<div class="home-cont">
+    <section id="home">
+        <div class="content">
+            <h3>DevKode: Soluções Digitais sob Medida</h3>
+            <p>Desenvolvemos aplicativos modernos, sistemas web e softwares robustos para transformar sua ideia em realidade técnica com foco em performance e experiência do usuário.</p>
+            <div class="btn-group">
+                <a href="https://wa.me/SEUNUMERO" class="btn" target="_blank">Solicitar Orçamento</a>
+                <a href="javascript:void(0)" class="btn btn-outline open-support">Apoiar Projeto</a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- SERVIÇOS -->
+<section class="services" id="services">
+    <h2 class="title">Nossos <span>Serviços</span></h2>
+    <div class="box-container">
+        <div class="box">
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/iphone.png" alt="App Mobile">
+            <h3>Desenvolvimento Mobile</h3>
+            <p>Criação de aplicativos nativos e híbridos (iOS e Android) usando Flutter.</p>
+        </div>
+        <div class="box">
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/code.png" alt="Sistemas Web">
+            <h3>Sistemas Web</h3>
+            <p>Desenvolvimento de dashboards, landing pages e plataformas administrativas.</p>
+        </div>
+        <div class="box">
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/api.png" alt="APIs">
+            <h3>Integração de APIs</h3>
+            <p>Conectando seu software com serviços de pagamento, bancos de dados e nuvem.</p>
+        </div>
+    </div>
+</section>
+
+<!-- SOBRE -->
+<section class="about" id="about">
+    <h2 class="title">Sobre a <span>DevKode</span></h2>
+    <div class="row">
+        <div class="container-img">
+            <img src="images/profile-tech.png" alt="DevKode Team">
+        </div>
+        <div class="content">
+            <h3>Especialistas em Flutter e Arquitetura de Software</h3>
+            <p>Na DevKode, somos apaixonados por tecnologia. Especializados em criar soluções escaláveis, utilizamos as melhores práticas de Clean Code e arquitetura para garantir que seu projeto seja fácil de manter e evoluir.</p>
+            <a href="#contact" class="btn">Saiba Mais</a>
+        </div>
+    </div>
+</section>
+
+<!-- PORTFÓLIO -->
+<section class="menu" id="menu">
+    <h2 class="title">Nosso <span>Portfólio</span> </h2>
+    <div class="box-container">
+        <!-- Projeto 1 -->
+        <div class="box">
+            <img width="100%" src="images/projeto1.jpg" alt="Projeto App Alimento"/>
+            <h3>App de Nutrição</h3>
+            <p>Gestão de calorias e macros com Flutter e Firebase.</p>
+            <a href="https://github.com/seu-usuario/projeto" target="_blank" class="btn">Ver Case no GitHub</a>
+        </div>
+    </div>
+</section>
+
+<!-- RODAPÉ E CONTATO -->
+<section class="footer" id="contact">
+    <div class="Share">
+        <h3>Vamos conversar sobre seu projeto?</h3>
+        <div class="social-links">
+            <a href="#" target="_blank"><img width="48" height="48" src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="Instagram"/></a>
+            <a href="#" target="_blank"><img width="48" height="48" src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn"/></a>
+            <a href="https://wa.me/SEUNUMERO" target="_blank"><img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="WhatsApp"/></a>
+        </div>
+        <p>&copy; 2025 DevKode - Soluções em Software</p>
+        <div style="margin-top: 2rem;">
+            <a href="javascript:void(0)" class="open-support" style="color: var(--main-color); font-size: 1.4rem;">Gostou do nosso trabalho? Considere nos apoiar financeiramente.</a>
+        </div>
+    </div>
+</section>
+
+<!-- MODAL DE APOIO -->
+<div class="modal" id="support-modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h3>Apoie a <span>DevKode</span></h3>
+        <p>Sua contribuição ajuda a manter nossos projetos open-source e a criação de conteúdo gratuito.</p>
+        
+        <div class="support-options">
+            <div class="option">
+                <img width="150" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=SUA-CHAVE-PIX-AQUI" alt="QR Code PIX">
+                <p>Escaneie o QR Code PIX</p>
+                <div class="copy-pix">
+                    <input type="text" value="suachavepix@email.com" id="pix-key" readonly>
+                    <button id="copy-btn">Copiar Chave</button>
+                </div>
+            </div>
+            <div class="separator">ou</div>
+            <a href="https://www.buymeacoffee.com/seu-usuario" target="_blank" class="btn">
+                <img width="20" src="https://img.icons8.com/ios-filled/50/000000/coffee-to-go.png" alt=""> Buy Me a Coffee
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts -->
+<script src="js/script.js"></script>
+</body>
+</html>
